@@ -1,0 +1,25 @@
+#123{
+	text-align: center;
+}
+#div1{
+	height: 500px;
+	width: 500px;
+	margin-left: 400px;
+	background-color: #232C3F;
+}
+.kraken-image {
+    width: 210px;
+    height: 210px;
+    margin-left: 270px;
+    -webkit-animation:spin 13s linear infinite;
+    -moz-animation:spin 10s linear infinite;
+    animation:spin 13s linear infinite;
+    transform-origin: 20% 40%;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+input[type=text]:focus {
+    background-color: white;
+}
